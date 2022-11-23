@@ -13,9 +13,10 @@
 
 # Configuration
 
-   Clone the repository(everything between the quotations of course):
+   Clone the repository in terminal(everything between the quotations of course):
 
-   "$ git clone https://github.com/mineranger101/330assignment.git"
+   $(this should already be here but has been added since it was seen in previous examples by the professor)
+   " git clone https://github.com/mineranger101/330assignment.git"
   
   "cd 330assignment"
 
