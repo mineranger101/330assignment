@@ -27,7 +27,7 @@
    "python3 FA_PT_2.py"
 
   Once the code has been run enter single digits from 0-9. If a non integer is entered the machine will restart your code input. After the correct passcode is entered     it will prompt you for the key enter 1 or 4 for the corresponding lock and unlock. If anything else is entered as the key the machine will ask you for the passcode    again.
-
+ # unit test coverage
    This lockCheck function takes in a key, which is a numerical unlock or lock value and the current LockStatus which tells us if the access is currently locked and # unlocked. This code block, or method, is called when the correct sequence is entered to the keypad.
 
 # Known Bugs
