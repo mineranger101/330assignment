@@ -28,7 +28,7 @@ def main():
 
     print("Part 1")
     print(" The code is XXXXX1 for unlock and XXXXX4 for lock \n",
-	    " Where XXXXX is the students ID in the case for this assignment" \n,
+	    " Where XXXXX is the students ID in the case for this assignment \n",
 	    "as soon as the last valid digit is entered you will receive and output")
 
     while(True): 
