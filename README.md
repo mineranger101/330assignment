@@ -1,4 +1,4 @@
-What is this repository for?
+What is this repository for?  
   This repository contains python code for trvial security device like on a door using a pin pad.
   
   this code uses a FSM to gather wether the entered passcode will change the state to or from lock or unlock.
