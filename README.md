@@ -12,13 +12,16 @@
    You must have python3 installed before you can complete the setup.
 
 # Configuration
-   Clone the repository:
+
+   Clone the repository(everything between the quotations of course):
 
    "$ git clone https://github.com/mineranger101/330assignment.git"
-   "cd 330assignment"
+  
+  "cd 330assignment"
 
   then run program using:
    "python3 FA_PT_1.py"
+   
    "python3 FA_PT_2.py"
 
   Once the code has been run enter single digits from 0-9. If a non integer is entered the machine will restart your code input. After the correct passcode is entered     it will prompt you for the key enter 1 or 4 for the corresponding lock and unlock. If anything else is entered as the key the machine will ask you for the passcode    again.
