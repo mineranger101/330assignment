@@ -14,34 +14,22 @@ You must have python3 installed before you can complete the setup.
 Configuration
 Clone the repository:
 
-"$ git clone "
-Make sure all the unit tests pass:
+"$ git clone https://github.com/mineranger101/330assignment.git"
+"cd 330assignment"
 
-$ ./gradlew test
-Use your browser to view the test html report, it's at ./app/build/reports/tests/test/packages/edu.iit.cs330.fall2022.html
-Build an executable jar:
+then run program using:
+"python3 FA_PT_1.py"
+"python3 FA_PT_2.py"
 
-$ ./gradlew jar
-Run the executable:
+Once the code has been run enter single digits from 0-9. If a non integer is entered the machine will restart your code input. After the correct passcode is entered it will prompt you for the key enter 1 or 4 for the corresponding lock and unlock. If anything else is entered as the key the machine will ask you for the passcode again.
 
-$ java -jar ./app/build/libs/app.jar
-Enter characters from the keyboard, one at a time, followed by Enter/Return and notice how anything other than 1 and 4 will be ignored.
-Alternatively you can use the keyboard to enter multiple characters separated by space, e.g. '2 9 7 4 a r 4 1 4' followed by Enter/Return: the application will consume the symbols in the string one at a time and print 'Lock'/'Unlock' as it encounters 4 or 1 respectively.
+This lockCheck function takes in a key, which is a numerical unlock or lock value and the current LockStatus which tells us if the access is currently locked and unlocked. This code block, or method, is called when the correct sequence is entered to the keypad.
 
-You could also put data in a file and feed that data to the application, like this:
+Known Bugs
 
-$ cat mydata | java -jar ./app/build/libs/app.jar
-or like this:
+no bugs
 
-$ java -jar ./app/build/libs/app.jar < mydata
-Generate jacoco unit-test coverage report:
-$ ./gradlew jacocoTestReport
-Use your browser to load the html report, it's at ./app/build/reports/jacoco/test/html/edu.iit.cs330.fall2022/index.html
-Known bugs
-Strings that represent integers bigger than 9 will raise an exception.
-Strings that represent negative integers are returned by readInput() as positive integers, need to look into the Scanner class as to why.
-License
-GNU Public License
+
 
 Who do I talk to?
-Email bistriceanu@iit.edu
+Email Sburton5@hawk.iit.edu
