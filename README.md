@@ -16,7 +16,7 @@
    Clone the repository in terminal(everything between the quotations of course):
 
    $(this dollar sign should already be here but has been added since it was seen in previous examples by the professor)
-   " git clone https://github.com/mineranger101/330assignment.git"
+     " git clone https://github.com/mineranger101/330assignment.git"
   
   "cd 330assignment"
 
